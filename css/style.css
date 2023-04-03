@@ -10,13 +10,13 @@
     background-color: rgba(78,160,255,255);
     background-image: url(../img/pattern.png);
     width: 8000px;
-    height: 187px;
+    height: 120px;
 }
 
 #logo{
-    margin: 75px 0 0 15px ;
-    width: 390px;
-    height: 100px;
+    margin: 55px 0 0 15px ;
+    width: 200px;
+    height: 50px;
 }
 /* Fine dell'intestazione */
 
@@ -60,7 +60,9 @@ h1{
 }
 /* Fine dell'header */
 /* Inizio del main */
-
+main{
+    margin-left: 15px;
+}
 
 .text-bg-yellow{
     background-color: yellow;
@@ -78,16 +80,17 @@ h1{
 .colonna-stretta{
     width: 25%;
     color: white;
-    padding-right: 15%;
+    padding-right: 16%;
 }
 
 .colonna-larga{
     color: white;
-    padding-right: 40%;
+    padding-right: 41%;
 }
 
 table{
     margin-top: 20px;
+    border-collapse: collapse;
 }
 
 thead{
@@ -100,5 +103,23 @@ tbody{
 
 #riga-centrale{
     background-color: white;
+    height: 50px;
 }
 
+.riga{
+    height: 50px;
+}
+
+footer{
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+#footer-paragraph{
+    color: rgba(119,119,119,255);
+}
+
+.footer-img{
+    background-image: url(../img/monitor.jpg);
+    background-image: url(../img/monitor.jpg);
+}
