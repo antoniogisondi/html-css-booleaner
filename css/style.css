@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 2000px;
+    height: 2925px;
+}
 /* Inizio dell'header */
 /* Inizio dell'intestazione */
-div{
+.intestazione{
     background-color: rgba(78,160,255,255);
     background-image: url(../img/pattern.png);
     width: 8000px;
@@ -17,7 +22,50 @@ div{
     width: 390px;
     height: 100px;
 }
-/* Fine dell'intestazione/
+/* Fine dell'intestazione */
+
+.container{
+    margin-left: 15px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#foot-h1{
+    color: rgba(170,170,170,255);
+    font-size: 22px;
+    margin: 0;
+}
+
+#text-blue{
+    color: rgba(54,177,231,255);
+}
+
+#data{
+    color: rgba(170,170,170,255);
+    font-size: 15px;
+    margin: 0;
+}
+
+#tim-photo-left{
+    width:515px;
+    height: 342px;
+    margin-top: 35px;
+}
+
+#tim-photo-right{
+    width: 435px;
+    height: 342px;
+}
+
+#commento{
+    font-size: 10px;
+}
+/* Fine dell'header */
+/* Inizio del main */
+
+
 
 
 
